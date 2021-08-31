@@ -1,0 +1,44 @@
+html {
+  font-size: 0.75em;
+}
+.main {
+  border: 1px solid grey;
+  max-width: 27%;
+}
+.name:before {
+  content: "\2022";
+  color: aqua;
+  padding-right: 0.2em;
+  padding-left: 0.5em;
+  font-size: 2.5em;
+}
+.name {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+  font-size: 1.1em;
+  margin-bottom: 0%;
+}
+.comment {
+  font-size: 10px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  padding-left: 9mm;
+  margin-top: 0%;
+  margin-bottom: 1em;
+}
+.explain {
+  color: rgb(75, 135, 247);
+  padding-left: 2em;
+}
+.hashtag {
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+  padding-left: 0.75em;
+}
+.explain:hover {
+  color: rgb(8, 92, 248);
+  font-size: 1.1em;
+}
