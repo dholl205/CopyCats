@@ -2,10 +2,17 @@
 .name {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 300;
+  padding-left: 1em;
 }
 .name:hover {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 500;
+}
+.row {
+  display: flex;
+}
+.row:hover {
+  display: flex;
   color: rgb(161, 24, 24);
   border-radius: 0px 15px 15px 0px;
   background-color: rgba(253, 39, 39, 0.288);
